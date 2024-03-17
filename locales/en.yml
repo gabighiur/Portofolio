@@ -12,3 +12,72 @@ intro:
   aka: Also known as
   whats-your-name: What's your name?
 not-found: Not found
+header:
+  title: "Welcome,"
+  desc: I'm Tudor, a digital creator and designer based in Bucharest, Romania, where i build web applications with Vue.js 
+  inspect: inspect portofolio
+look:
+  title: TheLookout
+  tag: MOUNTAIN
+  overview: Overview
+  about1: The Lookout came to life in a personal challenge two years ago. It's not just a contest entry but a canvas that reflects evolving skills, capturing the spirit of majestic mountains.
+  about2: With breathtaking views and tranquil surroundings, The Lookout provides a haven for those seeking peace and inspiration.
+  pallete: Color Scheme
+  aboutPallete: With Rosewood, Copper Rust, and Velvet Maroon, The Lookout's palette speaks of a timeless elegance, inviting viewers into a space of refined beauty.
+sedona:
+  title: SEDONA
+  tag: MOUNTAIN
+  overview: Overview
+  about1: Two years ago, I embarked on a personal challenge to design a poster, and my journey into the world of illustrations began. The end result was the breathtaking Sedona Summit artwork. More than just a contest entry, it captures the magnificent essence of mountains and marks my first successful attempt at poster design.
+  about2: Experience the landscapes and tranquil ambiance of Sedona Summit's artwork, transforming it into a tranquil sanctuary for those in search of solace and drawing inspiration from the captivating illustrations of the world.
+  pallete: Color Pallete
+  aboutPallete: Experience the lively essence of nature through the rich Sage Green. Earthy Olive and enigmatic Mossy Gray complement each other in this color trio, evoking the alluring charm of Sedona's stunning mountains
+socials:
+  dribbble: Dribbble
+  codepen: CodePen
+  github: GitHub
+  instagram: Instagram
+  sandstorm: Sandstorm
+nav:
+  item1: home
+  item2: work
+  item3: about
+  item4: cv
+hyena:
+  title: Hyena Commedy Club
+  desc: Decentralized Application crafted in Vue.JS and stylized with Tailwind CSS Framework
+bg:
+  title: What does this app do?
+  desc: This application utilizes the remove.bg API and artificial intelligence (AI) to automatically remove the background from complex images. Simply upload an image, and let the magic of AI do the rest!
+about:
+  title: Weaving Digital Dreams, Bringing Visions to Life
+  desc: >
+    Ever since I started digital designing, I've been fascinated by the power of empty space. It's about clarity and focus, that's why minimalism is more than a design choice, it's a way of life xD.
+    With Vue.js, I create interfaces that prioritize clarity, fluidity, and ease of use.
+    Let's collaborate and bring your digital vision to life, with every pixel placed thoughtfully and every interaction seamless.
+services:
+  title: My Process
+  design:
+    title: Design
+    desc: >
+      I use Adobe Illustrator for brand identity, initial web layouts and iconography
+  presentation:
+    title: Presentation
+    desc: >
+      I rely on Photoshop for a variety of tasks, including adding textures, retouching photos, adjusting colors, and crafting realistic mockups for client branding presentations.
+  development:
+    title: Development
+    desc: >
+      I use Vue.js framework with Tailwind to develop web applications
+    
+work:
+  title: Work Projects
+  button: View Details
+plus:
+  text: Additionally, I'm proficient with Premiere Pro, After Effects, and Blender
+  
+barber:
+  desc: Landing page for Barbershop
+
+cookhouse:
+  desc: a world of alchemy brought to life through a logo that exudes extraordinary qualities. Marvel at the fusion of a house and a chef's hat, resulting in a mystical conversion of comfort into culinary masterpieces. The vibrant coral and navy colors, representing passion and sophistication, invite you to embrace the enchantment and savor every dish crafted with mesmerizing creativity

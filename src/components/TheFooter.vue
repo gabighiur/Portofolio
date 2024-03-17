@@ -1,37 +1,24 @@
-<script setup lang="ts">
-import { availableLocales, loadLanguageAsync } from '~/modules/i18n'
-
-const { t, locale } = useI18n()
-
-async function toggleLocales() {
-  // change to some real logic
-  const locales = availableLocales
-  const newLocale = locales[(locales.indexOf(locale.value) + 1) % locales.length]
-  await loadLanguageAsync(newLocale)
-  locale.value = newLocale
-}
+<script setup>
+const socials = [
+  { name: 'Dribbble', icon: 'i-mdi:dribbble', link: 'https://dribbble.com/gabighiur', label: 'socials.dribbble' },
+  { name: 'CodePen', icon: 'i-cib:codepen', link: 'https://codepen.io/Gabi-Ghiur', label: 'socials.codepen' },
+  { name: 'GitHub', icon: 'i-carbon:logo-github', link: 'https://github.com/gabighiur', label: 'socials.github' },
+  { name: 'Instagram', icon: 'i-carbon:logo-instagram', link: 'https://instagram.com/gabi.ghiur', label: 'socials.instagram' },
+  { name: 'Sandstorm', icon: 'i-cryptocurrency:sand', link: 'https://app.sandstorm.co/users/0xb4b1205a528a18bbd19928bbd8e5bc38066d05ec', label: 'socials.sandstorm' },
+]
 </script>
 
 <template>
-  <nav flex="~ gap-4" mt-6 justify-center text-xl>
-    <RouterLink icon-btn to="/" :title="t('button.home')">
-      <div i-carbon-campsite />
-    </RouterLink>
-
-    <button icon-btn :title="t('button.toggle_dark')" @click="toggleDark()">
-      <div i="carbon-sun dark:carbon-moon" />
-    </button>
-
-    <a icon-btn :title="t('button.toggle_langs')" @click="toggleLocales()">
-      <div i-carbon-language />
-    </a>
-
-    <RouterLink icon-btn to="/about" :title="t('button.about')" data-test-id="about">
-      <div i-carbon-dicom-overlay />
-    </RouterLink>
-
-    <a icon-btn rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank" title="GitHub">
-      <div i-carbon-logo-github />
-    </a>
+  <nav class="flex flex-col justify-between bg-cyan-950 p-4 md:flex-row">
+    <TheLogo />
+    <p class="text-sm font-mono">
+      © 2024 Tudor Ghiur
+    </p>
+    <!-- Social Items -->
+    <div class="space-x-4 md:space-x-2">
+      <a v-for="social in socials" :key="social.name" :href="social.link" target="_blank" rel="noopener noreferrer" class="text-white">
+        <div :class="social.icon" icon-btn hover:bg-amber-100 />
+      </a>
+    </div>
   </nav>
 </template>

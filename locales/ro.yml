@@ -1,0 +1,74 @@
+button:
+  about: Despre
+  back: Înapoi
+  go: START
+  home: Acasă
+  toggle_dark: Comutare mod întunecat
+  toggle_langs: Schimbare limbă
+intro:
+  desc: Șablon Vite cu opinii
+  dynamic-route: Demonstrare rută dinamică
+  hi: Salut, {name}!
+  aka: aka
+  whats-your-name: Cum te numești?
+not-found: Nu a fost găsit
+header:
+  title: "Salut,"
+  desc: "Sunt Tudor, un creator digital și designer din București, România, unde construiesc aplicații web cu Vue.js."
+  inspect: vezi cu ce ma dau mare
+look:
+  title: TheLookout
+  tag: MOUNTAIN
+  overview: Prezentare generala
+  about1: The Lookout a luat viață într-o provocare personală acum doi ani. Nu este doar o intrare într-un concurs, ci o pânză care reflectă abilități în evoluție, capturând spiritul munților.
+  about2: Cu priveliști uluitoare și împrejurimi liniștite, The Lookout oferă un refugiu pentru cei care caută pace și inspirație.
+  pallete: Scheme de culori
+  aboutPallete: Cu Rosewood, Copper Rust și Velvet Maroon, paleta The Lookout vorbește despre o eleganță atemporală, invitând privitorii într-un spațiu al frumuseții refine.
+socials:
+  dribbble: Dribbble
+  codepen: CodePen
+  github: GitHub
+  instagram: Instagram
+  sandstorm: Sandstorm
+nav:
+  item1: acasă
+  item2: lucrări
+  item3: info
+  item4: cv
+hyena:
+  title: Clubul de Comedie Hyena
+  desc: Aplicație descentralizată dezvoltată în Vue.JS și stilizată cu ajutorul Framework-ului Tailwind CSS
+bg:
+  title: La ce folosește această aplicație?
+  desc: Această aplicație utilizează API-ul remove.bg și inteligența artificială (AI) pentru a elimina automat fundalul din imagini complexe. Pur și simplu încărcați o imagine și lăsați magia AI să facă restul!
+
+about:
+  title: Împletind Vise Digitale, Dând Viață Viziunilor
+  desc: >
+    Încă de când am început să proiectez digital, am fost fascinat de puterea spațiului gol. Este vorba despre claritate și concentrare, de aceea minimalismul este mai mult decât o alegere de design, este un mod de viață xD.
+    Cu Vue.js, creez interfețe care prioritizează claritatea, fluiditatea și ușurința de utilizare.
+    Să colaborăm și să dăm viață viziunii tale digitale, cu fiecare pixel plasat cu grijă și fiecare interacțiune fără probleme
+services:
+  title: Procesul Meu
+  design:
+    title: Design
+    desc: >
+      Folosesc Adobe Illustrator pentru identitatea de marcă, machetele web inițiale și iconografia.
+  presentation:
+    title: Prezentare
+    desc: >
+      Mă bazez pe Photoshop pentru diverse sarcini, inclusiv adăugarea texturilor, retușarea fotografiilor, ajustarea culorilor și crearea de machete realiste pentru prezentările de marcă pentru clienți.
+  development:
+    title: Dezvoltare
+    desc: >
+      Recurg la framework-ul Vue.js împreună cu Tailwind pentru a dezvolta aplicații web.
+  plus:
+    text: În plus, sunt familiarizat cu Premiere Pro, After Effects și Blender.
+work:
+  title: Lucrări
+  button: Detalii
+
+barber:
+  desc: Pagina de prezentare pentru frizerie
+cookhouse:
+  desc: O lume a alchimiei prinde viață printr-un logo ce emană calități extraordinare. Uită-te cu uimire la fuziunea dintre o casă și o pălărie de bucătar, rezultând într-o conversie mistică a confortului în capodopere culinare. Culorile vibrante de coral și navy, reprezentând pasiunea și sofisticarea, te invită să îmbrățișezi farmecul și să savurezi fiecare fel preparat cu o creativitate fascinantă.

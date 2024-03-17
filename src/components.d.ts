@@ -11,7 +11,16 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TheCounter: typeof import('./components/TheCounter.vue')['default']
+    TheDesktopNavbar: typeof import('./components/TheDesktopNavbar.vue')['default']
     TheFooter: typeof import('./components/TheFooter.vue')['default']
     TheInput: typeof import('./components/TheInput.vue')['default']
+    TheLogo: typeof import('./components/TheLogo.vue')['default']
+    TheMobileNavbar: typeof import('./components/TheMobileNavbar.vue')['default']
+    TheNavbar: typeof import('./components/TheNavbar.vue')['default']
+    TheSection: typeof import('./components/TheSection.vue')['default']
+    TheSection1: typeof import('./components/TheSection1.vue')['default']
+    TheSection2: typeof import('./components/TheSection2.vue')['default']
+    TheSection3: typeof import('./components/TheSection3.vue')['default']
+    TheSocials: typeof import('./components/TheSocials.vue')['default']
   }
 }

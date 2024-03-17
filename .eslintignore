@@ -1,0 +1,14 @@
+contracts/*.sol
+*.md
+!.eslintrc.js
+LICENSE
+pnpm-lock.yaml
+dist/*
+locales/*.yml
+src/assets/sedona/*.jpg
+src/assets/projectsimg/*.jpg
+src/assets/cookhouse/*.jpg
+src/assets/bgr/*.jpg
+**/styles/*.less
+**/styles/*.css
+**/lookout/*.jpg

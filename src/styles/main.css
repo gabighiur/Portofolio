@@ -1,5 +1,6 @@
 @import './markdown.css';
-
+@import './setUp.less';
+@import './myStyle.less';
 html,
 body,
 #app {
@@ -8,8 +9,9 @@ body,
   padding: 0;
 }
 
+
 html.dark {
-  background: #121212;
+  background: #98BFB9;
   color-scheme: dark;
 }
 
