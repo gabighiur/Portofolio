@@ -25,7 +25,7 @@ export default {
       <div class="flex-1 items-center">
         <header>
           <div class="mb-0 flex flex-col gap-4 text-left sm:mb-20">
-            <h1 class="text-4xl text-white lg:text-7xl md:text-7xl">
+            <h1 class="text-4xl font-bold text-white lg:text-7xl md:text-7xl">
               GOLDMAN
             </h1>
             <p class="text-l ml-2 text-white md:text-2xl">

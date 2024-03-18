@@ -8,8 +8,8 @@ const menuOpen = ref(false)
 const hamburgerLine = 'h-0 w-6 border-t-4 rounded border-amber-100 mt-1'
 
 const HOME = { label: t('nav.item1'), route: '/', section: '' }
-const WORK = { label: t('nav.item2'), route: '/section2', section: '' }
-const ABOUT = { label: t('nav.item3'), route: '/section3', section: '' }
+const WORK = { label: t('nav.item2'), route: '/portofolio', section: '' }
+const ABOUT = { label: t('nav.item3'), route: '/info', section: '' }
 const CV = { label: t('nav.item4'), route: '/cv', section: '' }
 
 const socialLinks = [
@@ -19,16 +19,6 @@ const socialLinks = [
   { name: 'Instagram', icon: 'i-carbon-logo-instagram', link: 'https://instagram.com/gabi.ghiur', label: 'socials.instagram' },
   { name: 'Sandstorm', icon: 'i-cryptocurrency:sand', link: 'https://app.sandstorm.co/users/0xb4b1205a528a18bbd19928bbd8e5bc38066d05ec', label: 'socials.sandstorm' },
 ]
-
-function scrollToSection(sectionId: string) {
-  const element = document.getElementById(sectionId)
-  if (element) {
-    element.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start',
-    })
-  }
-}
 
 async function toggleLocales() {
   const locales = availableLocales
@@ -47,7 +37,7 @@ const mobileMenuItems = computed(() => {
 </script>
 
 <template>
-  <nav :class="{ 'sticky top-0 max-h-20 overflow-hidden': !menuOpen, 'sticky top-0 transition-all duration-600 ease-in': menuOpen }" class="flex items-center justify-between bg-cyan-950 p-4">
+  <nav :class="{ 'sticky z-10 top-0 max-h-20 overflow-hidden': !menuOpen, 'sticky z-10 top-0 transition-all duration-600 ease-in': menuOpen }" class="flex items-center justify-between bg-cyan-950 p-4">
     <!-- Non-Hamburger Menu Items -->
     <div class="gap-4 text-amber-100 md:flex">
       <router-link
@@ -62,18 +52,18 @@ const mobileMenuItems = computed(() => {
     </div>
 
     <!-- Mobile Navbar -->
-    <div v-if="menuOpen" class="fixed left-0 top-0 w-full flex flex-col items-center bg-cyan-950 text-4xl">
+    <div v-if="menuOpen" class="fixed left-0 top-0 w-full flex flex-col items-center gap-4 bg-cyan-950 py-4 text-4xl">
       <!-- Mobile Menu Items -->
       <router-link
         v-for="item in mobileMenuItems"
         :key="item.label"
         :to="item.route"
-        class="py-2 text-amber-100"
+        class="py-2 text-amber-100 hover:text-cyan-200"
       >
         {{ item.label }}
       </router-link>
       <!-- Language Dropdown -->
-      <a :title="t('button.toggle_langs')" class="py-2 text-2xl text-amber-100" @click="toggleLocales()">
+      <a :title="t('button.toggle_langs')" class="py-2 text-2xl text-amber-100 hover:text-cyan-200" @click="toggleLocales()">
         <div flex flex-row gap-4>
           <div class="cursor-pointer" i-carbon-language />
           <span>Change language</span>
@@ -90,9 +80,11 @@ const mobileMenuItems = computed(() => {
           <div :class="link.icon" class="text-xl" />
         </a>
       </div>
+
       <div>
         <TheLogo />
       </div>
+      <hr min-w-sm border-1 border-emerald-100>
     </div>
 
     <!-- Hamburger Button -->

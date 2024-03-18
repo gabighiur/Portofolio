@@ -81,3 +81,9 @@ barber:
 
 cookhouse:
   desc: a world of alchemy brought to life through a logo that exudes extraordinary qualities. Marvel at the fusion of a house and a chef's hat, resulting in a mystical conversion of comfort into culinary masterpieces. The vibrant coral and navy colors, representing passion and sophistication, invite you to embrace the enchantment and savor every dish crafted with mesmerizing creativity
+
+cv:
+  title: Actually, for my privacy i think it's better to send me an email
+  send: Send
+  copy: Copy
+  label: Copied

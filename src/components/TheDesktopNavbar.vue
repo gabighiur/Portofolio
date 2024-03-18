@@ -4,12 +4,12 @@ import { availableLocales, loadLanguageAsync } from '~/modules/i18n'
 
 const { t, locale } = useI18n()
 
-const HOME = { label: t('nav.item1'), route: '/', section: '' }
-const WORK = { label: t('nav.item2'), route: '/section2', section: '' }
-const ABOUT = { label: t('nav.item3'), route: '/section3', section: '' }
-const CV = { label: t('nav.item4'), route: '/cv', section: '' }
+const HOME = { label: t('nav.item1'), route: '/', section: '', icon: '' }
+const WORK = { label: t('nav.item2'), route: '/portofolio', section: '', icon: '' }
+const ABOUT = { label: t('nav.item3'), route: '/info', section: '', icon: '' }
+const CV = { label: t('nav.item4'), route: '/cv', section: '', icon: 'i-pepicons-pencil:cv-circle' }
 
-const NAV_ITEMS = [HOME, WORK, ABOUT, CV]
+const NAV_ITEMS = [HOME, WORK, ABOUT]
 
 async function toggleLocales() {
   const locales = availableLocales
@@ -30,14 +30,21 @@ async function toggleLocales() {
         class="px-4 py-2 text-amber100 hover:text-cyan-200"
         :class="{ 'font-bold text-cyan-950 hover:text-cyan-900 bg-cyan-100 rounded-full': $route.path === item.route }"
       >
-        {{ item.label }}
+        <div class="flex items-center gap-1">
+          <div :class="item.icon" text-l />
+          {{ item.label }}
+        </div>
       </router-link>
-      <TheSocials class="text-amber-100" :is-mobile="false" />
+      <TheSocials class="px-4 text-amber-100" :is-mobile="false" />
       <!-- Language Dropdown -->
-      <div class="flex justify-end px-20 py-2 text-amber-100 hover:text-cyan-200">
-        <a :title="t('button.toggle_langs')" @click="toggleLocales()">
-          <div class="cursor-pointer text-2xl opacity-100" i-carbon-language />
+      <div class="flex justify-end gap-6 px-20 py-2">
+        <a @click="toggleLocales()">
+          <div class="cursor-pointer text-2xl text-amber-100 opacity-100 hover:text-cyan-200" i-carbon-language />
         </a>
+        <router-link :to="CV.route" class="flex cursor-pointer items-center gap-1 text-2xl text-amber-100 opacity-100 hover:text-cyan-200" :title="CV.label">
+          <div :class="CV.icon" />
+          <span>{{ CV.label }}</span>
+        </router-link>
       </div>
     </div>
   </nav>
