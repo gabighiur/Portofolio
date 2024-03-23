@@ -13,9 +13,9 @@ intro:
   whats-your-name: What's your name?
 not-found: Not found
 header:
-  title: "Welcome,"
-  desc: I'm Tudor, a digital creator and designer based in Bucharest, Romania, where i build web applications with Vue.js 
-  inspect: inspect portofolio
+  title: 'Welcome,'
+  desc: I'm Tudor, a digital creator and designer based in Bucharest, Romania, where i build web applications with Vue.js
+  inspect: inspect portfolio
 look:
   title: TheLookout
   tag: MOUNTAIN
@@ -44,7 +44,7 @@ nav:
   item3: about
   item4: cv
 hyena:
-  title: Hyena Commedy Club
+  title: Hyena Commend Club
   desc: Decentralized Application crafted in Vue.JS and stylized with Tailwind CSS Framework
 bg:
   title: What does this app do?
@@ -69,13 +69,13 @@ services:
     title: Development
     desc: >
       I use Vue.js framework with Tailwind to develop web applications
-    
+
 work:
   title: Work Projects
   button: View Details
 plus:
   text: Additionally, I'm proficient with Premiere Pro, After Effects, and Blender
-  
+
 barber:
   desc: Landing page for Barbershop
 
