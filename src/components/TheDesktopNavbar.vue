@@ -20,7 +20,7 @@ async function toggleLocales() {
 </script>
 
 <template>
-  <nav sticky top-0 flex items-center justify-center bg-cyan-950 p-4 px-20>
+  <nav sticky top-0 z-50 flex items-center justify-center bg-cyan-950 p-4 px-20>
     <!-- Items Section -->
     <div flex flex-row cursor-pointer items-center text-4xl>
       <router-link

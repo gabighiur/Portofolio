@@ -1,12 +1,9 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-// Reactive variable to control the visibility of the "Copied" message
 const copied = ref(false)
 
-// Function to handle sending an email
 function sendEmail() {
-  // Generate mailto link and open default email client
   const email = 'tudor.ghiur@yahoo.com'
   const subject = encodeURIComponent('Subject')
   const body = encodeURIComponent('Body')
@@ -14,14 +11,13 @@ function sendEmail() {
   window.location.href = mailtoLink
 }
 
-// Function to handle copying the email address
 function copyEmail() {
   const emailInput = document.getElementById('emailInput') as HTMLInputElement
   emailInput.select()
   document.execCommand('copy')
-  // Update the flag to show the "Copied" message
+
   copied.value = true
-  // Hide the "Copied" message after 2 seconds
+
   setTimeout(() => {
     copied.value = false
   }, 2000)
@@ -31,7 +27,7 @@ function copyEmail() {
 <template>
   <div min-h-screen flex items-center justify-center rounded bg-emerald-100 px-4 lg:px-20 md:px-10>
     <div flex flex-col items-center justify-center gap-4 rounded-12 bg-cyan-900 p-6 lg:p-20 md:p-10>
-      <div i-carbon-warning inline-block text-6xl />
+      <div i-carbon-warning inline-block text-6xl text-white />
       <div text-left text-2xl text-white>
         <div>
           <div flex flex-col items-center>
@@ -53,7 +49,6 @@ function copyEmail() {
             <div i="mdi-content-copy" />
             <span>{{ $t('cv.copy') }}</span>
           </button>
-          <!-- Conditionally render the "Copied" message -->
           <div v-if="copied" class="animate-fadeOut absolute rounded-md bg-white px-4 py-2 text-cyan-950">
             Copied
           </div>

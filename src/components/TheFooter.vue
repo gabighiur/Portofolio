@@ -11,7 +11,7 @@ const socials = [
 <template>
   <nav class="flex flex-col justify-between bg-cyan-950 p-4 md:flex-row">
     <TheLogo />
-    <p class="text-sm font-mono">
+    <p class="text-sm font-mono text-white">
       © 2024 Tudor Ghiur
     </p>
     <!-- Social Items -->
