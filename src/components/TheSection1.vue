@@ -15,7 +15,7 @@ export default {
         {{ $t('header.desc') }}
       </p>
       <div class="mt-4">
-        <router-link to="section2" class="text-s cursor-pointer text-cyan-950 underline underline-offset-1 lg:text-xl md:text-xl sm:text-xs">
+        <router-link to="portofolio" class="text-s cursor-pointer text-cyan-950 underline underline-offset-1 lg:text-xl md:text-xl sm:text-xs">
           {{ $t('header.inspect') }}
         </router-link>
       </div>
