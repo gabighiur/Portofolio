@@ -11,7 +11,7 @@ useHead({
   link: [
     {
       rel: 'icon',
-      type: 'image/svg+xml',
+      type: 'image/png',
       href: () => preferredDark.value ? '/fav.png' : '/fav.png',
     },
   ],

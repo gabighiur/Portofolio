@@ -7,7 +7,5 @@ export default {
 <template>
   <div>
     <TheSection1 />
-    <TheSection2 />
-    <TheSection3 />
   </div>
 </template>

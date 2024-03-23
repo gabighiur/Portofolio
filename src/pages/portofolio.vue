@@ -1,16 +1,21 @@
 <script>
 /* eslint no-undef: "error" */
+import hyena from '~/assets/projectsimg/darkMode.png'
+import barber from '~/assets/projectsimg/mock2.png'
+import bgremover from '~/assets/bgr/remover.png'
+import lookout from '~/assets/projectsimg/lookout.jpg'
+import cook from '~/assets/cookhouse/preview.png'
+
 export default {
   name: 'TheSection2',
   data() {
     return {
       projects: [
-        { id: 1, image: './src/assets/darkMode.png', routeName: 'hyena' },
-        { id: 2, image: './src/assets/mock2.png', routeName: 'barber' },
-        { id: 3, image: './src/assets/bgr/preview.png', routeName: 'bgremover' },
-        { id: 4, image: './src/assets/projectsimg/lookout.jpg', routeName: 'lookout' },
-        { id: 5, image: './src/assets/cookhouse/preview.png', routeName: 'logos' },
-        // { id: 6, image: './src/assets/projectsimg/sedona.jpg', routeName: 'sedona' },
+        { id: 1, image: hyena, routeName: 'hyena' },
+        { id: 2, image: barber, routeName: 'barber' },
+        { id: 3, image: bgremover, routeName: 'bgremover' },
+        { id: 4, image: lookout, routeName: 'lookout' },
+        { id: 5, image: cook, routeName: 'logos' },
       ],
     }
   },
