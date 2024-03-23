@@ -9,8 +9,6 @@ node_modules
 *.log
 cypress/downloads
 tsconfig.json
-
-# Ignore specific files causing parsing errors
 package.json
 pnpm-lock.yaml
 src/App.vue

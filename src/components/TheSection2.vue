@@ -4,11 +4,11 @@ export default {
   data() {
     return {
       projects: [
-        { id: 1, image: '/src/assets/darkMode.png', routeName: 'hyena' },
-        { id: 2, image: '/src/assets/mock2.png', routeName: 'barber' },
-        { id: 3, image: '/src/assets/bgr/preview.png', routeName: 'bgremover' },
-        { id: 4, image: '/src/assets/projectsimg/lookout.jpg', routeName: 'lookout' },
-        { id: 5, image: '/src/assets/cookhouse/preview.png', routeName: 'logos' },
+        { id: 1, image: '/assets/darkMode.png', routeName: 'hyena' },
+        { id: 2, image: '/assets/mock2.png', routeName: 'barber' },
+        { id: 3, image: '/assets/bgr/preview.png', routeName: 'bgremover' },
+        { id: 4, image: '/assets/projectsimg/lookout.jpg', routeName: 'lookout' },
+        { id: 5, image: '/assets/cookhouse/preview.png', routeName: 'logos' },
         // { id: 6, image: './src/assets/projectsimg/sedona.jpg', routeName: 'sedona' },
       ],
     }
