@@ -1,6 +1,6 @@
 <script>
 /* eslint no-undef: "error" */
-import hyena from '~/assets/projectsimg/hyenaBG.png'
+import hyena from '~/assets/projectsimg/hyenapreview.png'
 import barber from '~/assets/projectsimg/mock2.png'
 import bgremover from '~/assets/bgr/remover.png'
 import lookout from '~/assets/projectsimg/lookout.jpg'
