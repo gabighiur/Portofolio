@@ -1,6 +1,6 @@
 <script>
 /* eslint no-undef: "error" */
-import image from '~/assets/projectsimg/mock.png'
+import image from '~/assets/mock.png'
 
 export default {
   data() {

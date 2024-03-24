@@ -1,9 +1,9 @@
 <script setup>
-import bgremover from '~/assets/bgr/remover.png'
+import bgremover from '~/assets/remover.png'
 import hyena from '~/assets/hyenapreview.png'
-import barber from '~/assets/projectsimg/mock2.png'
-import lookout from '~/assets/projectsimg/lookout.jpg'
-import cook from '~/assets/cookhouse/preview.png'
+import barber from '~/assets/mock2.png'
+import lookout from '~/assets/lookout.jpg'
+import cook from '~/assets/preview.png'
 
 const projects = [
   { id: 1, image: hyena, routeName: 'hyena' },

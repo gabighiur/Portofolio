@@ -2,9 +2,9 @@
 /* eslint no-undef: "error" */
 import process from 'node:process'
 import axios from 'axios'
-import logo from '~/assets/bgr/bgremover.png'
-import img1 from '~/assets/bgr/img1.jpg'
-import img2 from '~/assets/bgr/img2.png'
+import logo from '~/assets/bgremover.png'
+import img1 from '~/assets/img1.jpg'
+import img2 from '~/assets/img2.png'
 
 export default {
   data() {

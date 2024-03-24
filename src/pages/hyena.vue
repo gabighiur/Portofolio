@@ -1,6 +1,6 @@
 <script>
 /* eslint no-undef: "error" */
-import image from '~/assets/projectsimg/hyena.png'
+import image from '~/assets/hyena.png'
 
 export default {
   data() {

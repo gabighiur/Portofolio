@@ -1,9 +1,9 @@
 <script setup>
 /* eslint no-undef: "error" */
-import img1 from '~/assets/cookhouse/1.png'
-import img2 from '~/assets/cookhouse/3.jpg'
-import img3 from '~/assets/cookhouse/3.png'
-import img4 from '~/assets/cookhouse/4.png'
+import img1 from '~/assets/1.png'
+import img2 from '~/assets/3.jpg'
+import img3 from '~/assets/3.png'
+import img4 from '~/assets/4.png'
 
 function goBack() {
   window.history.back()
