@@ -1,25 +1,17 @@
-<script>
-/* eslint no-undef: "error" */
+<script setup>
 import bgremover from '~/assets/bgr/remover.png'
 import hyena from '~/assets/hyenapreview.png'
 import barber from '~/assets/projectsimg/mock2.png'
 import lookout from '~/assets/projectsimg/lookout.jpg'
 import cook from '~/assets/cookhouse/preview.png'
 
-export default {
-  name: 'TheSection2',
-  data() {
-    return {
-      projects: [
-        { id: 1, image: hyena, routeName: 'hyena' },
-        { id: 2, image: barber, routeName: 'barber' },
-        { id: 3, image: bgremover, routeName: 'bgremover' },
-        { id: 4, image: lookout, routeName: 'lookout' },
-        { id: 5, image: cook, routeName: 'logos' },
-      ],
-    }
-  },
-}
+const projects = [
+  { id: 1, image: hyena, routeName: 'hyena' },
+  { id: 2, image: barber, routeName: 'barber' },
+  { id: 3, image: bgremover, routeName: 'bgremover' },
+  { id: 4, image: lookout, routeName: 'lookout' },
+  { id: 5, image: cook, routeName: 'logos' },
+]
 </script>
 
 <template>
