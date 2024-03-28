@@ -1,8 +1,8 @@
 <script setup>
-import underH from '~/assets/sedona/hdr.png'
-import header from '~/assets/sedona/poster1.jpg'
-import over from '~/assets/sedona/over.jpg'
-import hugePoster from '~/assets/sedona/poster2.jpg'
+import underH from '~/assets/hdr.png'
+import header from '~/assets/poster1.jpg'
+import over from '~/assets/over.jpg'
+import hugePoster from '~/assets/poster2.jpg'
 
 const colorPalette = [
   { name: 'Light Sage Green', code: '#A8D5B1' },
