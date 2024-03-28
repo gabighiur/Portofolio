@@ -5,10 +5,10 @@ import lookout from '@/assets/lookout.jpg'
 import cook from '@/assets/preview.png'
 
 const projects = [
-  { id: 1, image: hyena, routeName: 'hyena' },
-  { id: 2, image: barber, routeName: 'barber' },
-  { id: 3, image: lookout, routeName: 'lookout' },
-  { id: 4, image: cook, routeName: 'logos' },
+  { id: 1, path: hyena, routeName: 'hyena' },
+  { id: 2, path: barber, routeName: 'barber' },
+  { id: 3, path: lookout, routeName: 'lookout' },
+  { id: 4, path: cook, routeName: 'logos' },
 ]
 </script>
 
@@ -27,7 +27,7 @@ const projects = [
           class="mb-4 border-2 border-emerald-100 p-4"
         >
           <img
-            :src="project.image"
+            :src="project.path"
             alt="Project Image"
             class="mx-auto mb-4 h-50 object-cover"
           >
