@@ -1,15 +1,21 @@
-<script setup>
-import hyena from '@/assets/hyenapreview.png'
-import barber from '@/assets/mock2.png'
-import lookout from '@/assets/lookout.jpg'
-import cook from '@/assets/preview.png'
+<script>
+/* eslint no-undef: "error" */
+import hyenaImg from '~/assets/hyenapreview.png'
+import barberImg from '~/assets/mock2.png'
+import cookImg from '~/assets/preview.png'
 
-const projects = [
-  { id: 1, path: hyena, routeName: 'hyena' },
-  { id: 2, path: barber, routeName: 'barber' },
-  { id: 3, path: lookout, routeName: 'lookout' },
-  { id: 4, path: cook, routeName: 'logos' },
-]
+export default {
+  name: 'Portofolio',
+  data() {
+    return {
+      projects: [
+        { id: 1, image: hyenaImg, routeName: 'hyena' },
+        { id: 2, image: barberImg, routeName: 'barber' },
+        { id: 3, image: cookImg, routeName: 'logos' },
+      ],
+    }
+  },
+}
 </script>
 
 <template>
@@ -18,7 +24,6 @@ const projects = [
       <h1 class="mb-8 text-3xl font-bold text-emerald-100">
         {{ $t('work.title') }}
       </h1>
-
       <div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
         <router-link
           v-for="project in projects"
@@ -27,7 +32,7 @@ const projects = [
           class="mb-4 border-2 border-emerald-100 p-4"
         >
           <img
-            :src="project.path"
+            :src="project.image"
             alt="Project Image"
             class="mx-auto mb-4 h-50 object-cover"
           >
