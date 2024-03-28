@@ -1,5 +1,4 @@
 <script setup>
-import bgremover from '~/assets/remover.png'
 import hyena from '~/assets/hyenapreview.png'
 import barber from '~/assets/mock2.png'
 import lookout from '~/assets/lookout.jpg'
@@ -8,9 +7,8 @@ import cook from '~/assets/preview.png'
 const projects = [
   { id: 1, image: hyena, routeName: 'hyena' },
   { id: 2, image: barber, routeName: 'barber' },
-  { id: 3, image: bgremover, routeName: 'bgremover' },
-  { id: 4, image: lookout, routeName: 'lookout' },
-  { id: 5, image: cook, routeName: 'logos' },
+  { id: 3, image: lookout, routeName: 'lookout' },
+  { id: 4, image: cook, routeName: 'logos' },
 ]
 </script>
 

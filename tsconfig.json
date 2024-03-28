@@ -12,7 +12,6 @@
     "types": [
       "vitest",
       "vite/client",
-      "vue/ref-macros",
       "vite-plugin-pages/client",
       "vite-plugin-vue-component-preview/client",
       "vite-plugin-vue-layouts/client",
@@ -20,7 +19,6 @@
       "unplugin-vue-macros/macros-global"
     ],
     "resolveJsonModule": true,
-    "allowJs": true,
     "isolatedModules": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -31,8 +29,6 @@
   },
   "vueCompilerOptions": {
     "plugins": [
-      "@vue-macros/volar/define-models",
-      "@vue-macros/volar/define-slots"
     ]
   },
   "exclude": ["dist", "node_modules", "cypress"]

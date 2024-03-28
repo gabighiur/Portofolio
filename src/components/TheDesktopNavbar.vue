@@ -2,12 +2,12 @@
 import { useI18n } from 'vue-i18n'
 import { availableLocales, loadLanguageAsync } from '~/modules/i18n'
 
-const { t, locale } = useI18n()
+const { locale } = useI18n()
 
-const HOME = { label: t('nav.item1'), route: '/', section: '', icon: '' }
-const WORK = { label: t('nav.item2'), route: '/portofolio', section: '', icon: '' }
-const ABOUT = { label: t('nav.item3'), route: '/info', section: '', icon: '' }
-const CV = { label: t('nav.item4'), route: '/cv', section: '', icon: 'i-pepicons-pencil:cv-circle' }
+const HOME = { label: 'nav.item1', route: '/', section: '', icon: '' }
+const WORK = { label: 'nav.item2', route: '/portofolio', section: '', icon: '' }
+const ABOUT = { label: 'nav.item3', route: '/info', section: '', icon: '' }
+const CV = { label: 'nav.item4', route: '/cv', section: '', icon: 'i-pepicons-pencil:cv-circle' }
 
 const NAV_ITEMS = [HOME, WORK, ABOUT]
 
@@ -32,7 +32,7 @@ async function toggleLocales() {
       >
         <div class="flex items-center gap-1">
           <div :class="item.icon" text-l />
-          {{ item.label }}
+          {{ $t(item.label) }}
         </div>
       </router-link>
       <TheSocials class="px-4 text-amber-100" :is-mobile="false" />
@@ -43,7 +43,7 @@ async function toggleLocales() {
         </a>
         <router-link :to="CV.route" class="flex cursor-pointer items-center gap-1 text-2xl text-amber-100 opacity-100 hover:text-cyan-200" :title="CV.label">
           <div :class="CV.icon" />
-          <span>{{ CV.label }}</span>
+          <span>{{ $t(CV.label) }}</span>
         </router-link>
       </div>
     </div>
