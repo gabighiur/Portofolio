@@ -1,8 +1,8 @@
 <script setup>
-import hyena from '~/assets/hyenapreview.png'
-import barber from '~/assets/mock2.png'
-import lookout from '~/assets/lookout.jpg'
-import cook from '~/assets/preview.png'
+import hyena from '@/assets/hyenapreview.png'
+import barber from '@/assets/mock2.png'
+import lookout from '@/assets/lookout.jpg'
+import cook from '@/assets/preview.png'
 
 const projects = [
   { id: 1, image: hyena, routeName: 'hyena' },
