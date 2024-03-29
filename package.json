@@ -83,6 +83,10 @@
     "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
-    "*": "eslint --fix"
+    "*": "eslint --fix",
+    "!(*.jpg|*.png)": [
+      "echo Skipping linting for image files"
+    ]
   }
+
 }

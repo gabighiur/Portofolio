@@ -1,7 +1,7 @@
 <script setup>
 /* eslint no-undef: "error" */
 import img1 from '~/assets/1.png'
-import img2 from '~/assets/3.jpg'
+import img2 from '~/assets/2.jpg'
 import img3 from '~/assets/3.png'
 import img4 from '~/assets/4.png'
 
@@ -27,7 +27,7 @@ function goBack() {
       <img :src="img4">
     </div>
   </section>
-  <section class="sedonaText bgcook flex flex-col gap-4 p-20 text-left">
+  <section class="bgcook sedonaText flex flex-col gap-4 p-20 text-left">
     <h1 class="sedonaText text-4xl text-white">
       COOKHOUSE
     </h1>
