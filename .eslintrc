@@ -3,5 +3,5 @@
     "@antfu",
     "@unocss"
   ],
-  "ignorePatterns": ["**/*.jpg", "**/*.png"]
+  "ignorePatterns": ["**/*.jpg", "**/*.png", "**/*.gif"]
 }

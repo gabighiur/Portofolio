@@ -3,21 +3,21 @@
 </script>
 
 <template>
-  <section id="section01" class="min-h-screen flex items-center justify-center bg-emerald-100 px-8">
-    <div class="p-8 text-left">
-      <h1 class="ml--2 text-6xl font-bold leading-tight text-cyan-950">
+  <section id="section01" class="min-h-screen flex items-center justify-center bg-emerald-100 p-8 md:p-20">
+    <div class="text-left">
+      <h1 class="ml--2 text-5xl font-bold leading-tight text-cyan-950 md:text-6xl">
         {{ $t('about.title') }}
       </h1>
       <hr class="my-6 border-cyan-950 sm:mx-auto">
-      <p class="text-xl text-cyan-950 lg:w-1/2">
+      <p class="text-xl text-cyan-950 lg:w-1/2 md:text-xl">
         {{ $t('about.desc') }}
       </p>
     </div>
   </section>
-  <section id="services" class="min-h-screen flex items-center justify-center bg-emerald-100 px-8">
+  <section id="services" class="min-h-screen flex items-center justify-center bg-emerald-100 p-8">
     <div class="mx-auto container">
       <div class="text-left">
-        <h1 class="text-6xl font-bold leading-tight text-cyan-950">
+        <h1 class="text-5xl font-bold leading-tight text-cyan-950 md:text-6xl">
           {{ $t('services.title') }}
         </h1>
         <hr class="my-6 border-cyan-950 sm:mx-auto">

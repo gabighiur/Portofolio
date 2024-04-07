@@ -13,8 +13,8 @@ intro:
   whats-your-name: Cum te numești?
 not-found: Nu a fost găsit
 header:
-  title: "Salut,"
-  desc: "Sunt Tudor, un creator digital și designer din București, România, unde construiesc aplicații web cu Vue.js."
+  title: 'Salut,'
+  desc: 'Sunt Tudor, un creator digital și designer din București, România, unde construiesc aplicații web cu Vue.js.'
   inspect: vezi cu ce ma dau mare
 look:
   title: TheLookout
@@ -78,3 +78,7 @@ cv:
   send: Trimite
   copy: Copiază
   label: Copiat
+
+owl:
+  title: Night Owl's
+  desc: Pagina de introducere dezvoltată în Vue.JS și stilizată cu framework-ul Tailwind CSS

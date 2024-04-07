@@ -87,3 +87,7 @@ cv:
   send: Send
   copy: Copy
   label: Copied
+
+owl:
+  title: Night Owl's
+  desc: Landing page crafted in Vue.JS and stylized with Tailwind CSS Framework

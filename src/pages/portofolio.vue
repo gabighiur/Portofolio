@@ -3,15 +3,17 @@
 import hyenaImg from '~/assets/hyenapreview.png'
 import barberImg from '~/assets/mock2.png'
 import cookImg from '~/assets/preview.png'
+import owlImg from '~/assets/owlpreview.png'
 
 export default {
   name: 'Portofolio',
   data() {
     return {
       projects: [
-        { id: 1, image: hyenaImg, routeName: 'hyena' },
-        { id: 2, image: barberImg, routeName: 'barber' },
-        { id: 3, image: cookImg, routeName: 'logos' },
+        { id: 1, image: hyenaImg, routeName: 'hyena', label: 'HaHaHyenas Web App' },
+        { id: 2, image: barberImg, routeName: 'barber', label: 'GoldMan Barbershop Web App' },
+        { id: 3, image: owlImg, routeName: 'owl', label: 'Night Owl Web App' },
+        { id: 4, image: cookImg, routeName: 'logos', label: 'Logofolio' },
       ],
     }
   },
@@ -31,13 +33,16 @@ export default {
           :to="{ name: project.routeName }"
           class="mb-4 border-2 border-emerald-100 p-4"
         >
+          <h2 m-8 text-2xl tracking-wide text-emerald-100>
+            {{ project.label }}
+          </h2>
           <img
             :src="project.image"
             alt="Project Image"
             class="mx-auto mb-4 h-50 object-cover"
           >
-          <button>
-            <p class="mt-4 bg-emerald-100 px-3 py-1 text-xs text-cyan-950">
+          <button btn>
+            <p class="px-3 py-1 text-xs text-cyan-950">
               {{ $t('work.button') }}
             </p>
           </button>

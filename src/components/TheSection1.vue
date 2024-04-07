@@ -6,12 +6,12 @@ export default {
 </script>
 
 <template>
-  <section id="section01" class="min-h-screen flex items-center justify-center bg-emerald-100 p-8">
-    <div class="p-20 text-left">
+  <section id="section01" class="min-h-screen flex items-center justify-center bg-emerald-100 p-2">
+    <div class="p-8 text-left">
       <h1 class="ml--2 text-6xl font-bold leading-tight text-cyan-950 xl:text-9xl">
         {{ $t('header.title') }}
       </h1>
-      <p class="text-xl text-cyan-950 xl:w-1/2">
+      <p class="text-sm text-cyan-950 xl:w-1/2 md:text-xl">
         {{ $t('header.desc') }}
       </p>
       <div class="mt-4">
