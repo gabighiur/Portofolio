@@ -37,7 +37,7 @@ export default {
             </div>
             <div class="flex flex-row items-center gap-8">
               <a
-                href="https://haha-hyenas.vercel.app/"
+                href="https://goldman.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
                 title="Hyena Website"
