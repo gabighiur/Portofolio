@@ -74,7 +74,8 @@ cookhouse:
   desc: O lume a alchimiei prinde viață printr-un logo ce emană calități extraordinare. Uită-te cu uimire la fuziunea dintre o casă și o pălărie de bucătar, rezultând într-o conversie mistică a confortului în capodopere culinare. Culorile vibrante de coral și navy, reprezentând pasiunea și sofisticarea, te invită să îmbrățișezi farmecul și să savurezi fiecare fel preparat cu o creativitate fascinantă.
 
 cv:
-  title: De fapt, pentru intimitatea mea, cred că este mai bine să-mi trimiteți un e-mail
+  title: Descarcă CV-ul sau trimite-mi un email
+  download: Descarcă
   send: Trimite
   copy: Copiază
   label: Copiat

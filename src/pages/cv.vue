@@ -2,7 +2,13 @@
 import { ref } from 'vue'
 
 const copied = ref(false)
-
+function downloadCV() {
+  const cvUrl = '/assets/cv.pdf'
+  const anchorElement = document.createElement('a')
+  anchorElement.href = cvUrl
+  anchorElement.download = 'cv.pdf'
+  anchorElement.click()
+}
 function sendEmail() {
   const email = 'tudor.ghiur@yahoo.com'
   const subject = encodeURIComponent('Subject')
@@ -27,7 +33,6 @@ function copyEmail() {
 <template>
   <div min-h-screen flex items-center justify-center rounded bg-emerald-100 px-4 lg:px-20 md:px-10>
     <div flex flex-col items-center justify-center gap-4 rounded-12 bg-cyan-900 p-6 lg:p-20 md:p-10>
-      <div i-carbon-warning inline-block text-6xl text-white />
       <div text-left text-2xl text-white>
         <div>
           <div flex flex-col items-center>
@@ -40,6 +45,10 @@ function copyEmail() {
         </div>
       </div>
       <div flex flex-row items-center gap-4>
+        <button class="flex gap-2 btn" @click="downloadCV">
+          <div i-mdi:download />
+          <span>{{ $t('cv.download') }}</span>
+        </button>
         <button class="flex gap-2 btn" @click="sendEmail">
           <div i-mdi:email />
           <span>{{ $t('cv.send') }}</span>

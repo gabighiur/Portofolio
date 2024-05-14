@@ -4,6 +4,7 @@ export default {
     return {
       socialLinks: [
         { name: 'Dribbble', icon: 'i-mdi:dribbble', link: 'https://dribbble.com/gabighiur', label: 'socials.dribbble' },
+        { name: 'Linkedin', icon: 'i-mdi:linkedin', link: 'https://www.linkedin.com/in/gabighiur/', label: 'socials.linkedin' },
         { name: 'CodePen', icon: 'i-cib:codepen', link: 'https://codepen.io/Gabi-Ghiur', label: 'socials.codepen' },
         { name: 'GitHub', icon: 'i-carbon-logo-github', link: 'https://github.com/gabighiur', label: 'socials.github' },
         { name: 'Instagram', icon: 'i-carbon-logo-instagram', link: 'https://instagram.com/gabi.ghiur', label: 'socials.instagram' },

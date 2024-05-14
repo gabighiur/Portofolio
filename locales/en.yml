@@ -34,6 +34,7 @@ sedona:
   aboutPallete: Experience the lively essence of nature through the rich Sage Green. Earthy Olive and enigmatic Mossy Gray complement each other in this color trio, evoking the alluring charm of Sedona's stunning mountains
 socials:
   dribbble: Dribbble
+  linkedin: LinkedIn
   codepen: CodePen
   github: GitHub
   instagram: Instagram
@@ -83,7 +84,8 @@ cookhouse:
   desc: a world of alchemy brought to life through a logo that exudes extraordinary qualities. Marvel at the fusion of a house and a chef's hat, resulting in a mystical conversion of comfort into culinary masterpieces. The vibrant coral and navy colors, representing passion and sophistication, invite you to embrace the enchantment and savor every dish crafted with mesmerizing creativity
 
 cv:
-  title: Actually, for my privacy i think it's better to send me an email
+  title: Download CV or send me an e-mail
+  download: Download
   send: Send
   copy: Copy
   label: Copied

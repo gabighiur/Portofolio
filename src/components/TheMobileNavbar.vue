@@ -14,6 +14,7 @@ const CV = { label: t('nav.item4'), route: '/cv', section: '' }
 
 const socialLinks = [
   { name: 'Dribbble', icon: 'i-mdi:dribbble', link: 'https://dribbble.com/gabighiur', label: 'socials.dribbble' },
+  { name: 'Linkedin', icon: 'i-mdi:linkedin', link: 'https://www.linkedin.com/in/gabighiur/', label: 'socials.linkedin' },
   { name: 'CodePen', icon: 'i-cib:codepen', link: 'https://codepen.io/Gabi-Ghiur', label: 'socials.codepen' },
   { name: 'GitHub', icon: 'i-carbon-logo-github', link: 'https://github.com/gabighiur', label: 'socials.github' },
   { name: 'Instagram', icon: 'i-carbon-logo-instagram', link: 'https://instagram.com/gabi.ghiur', label: 'socials.instagram' },
@@ -59,11 +60,12 @@ const mobileMenuItems = computed(() => {
         :key="item.label"
         :to="item.route"
         class="py-2 text-amber-100 hover:text-cyan-200"
+        @click="menuOpen = false"
       >
         {{ item.label }}
       </router-link>
       <!-- Language Dropdown -->
-      <a :title="t('button.toggle_langs')" class="py-2 text-2xl text-amber-100 hover:text-cyan-200" @click="toggleLocales()">
+      <a :title="t('button.toggle_langs')" class="py-2 text-2xl text-amber-100 hover:text-cyan-200" @click="toggleLocales(); menuOpen = false">
         <div flex flex-row gap-4>
           <div class="cursor-pointer" i-carbon-language />
           <span>Change language</span>
