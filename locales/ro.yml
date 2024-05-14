@@ -69,7 +69,7 @@ work:
   button: Detalii
 
 barber:
-  desc: Pagina de prezentare pentru frizerie
+  desc: Pagina de prezentare pentru frizerie, creata cu Vue.js si stilizata cu framework-ul Tailwind.
 cookhouse:
   desc: O lume a alchimiei prinde viață printr-un logo ce emană calități extraordinare. Uită-te cu uimire la fuziunea dintre o casă și o pălărie de bucătar, rezultând într-o conversie mistică a confortului în capodopere culinare. Culorile vibrante de coral și navy, reprezentând pasiunea și sofisticarea, te invită să îmbrățișezi farmecul și să savurezi fiecare fel preparat cu o creativitate fascinantă.
 

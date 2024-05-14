@@ -14,7 +14,7 @@ intro:
 not-found: Not found
 header:
   title: 'Welcome,'
-  desc: I'm Tudor, a digital creator and designer based in Bucharest, Romania, where i build web applications with Vue.js
+  desc: I'm Tudor, a digital creator and designer based in Bucharest, Romania, where i build responsive web applications with Vue.js
   inspect: inspect portfolio
 look:
   title: TheLookout
@@ -77,7 +77,7 @@ plus:
   text: Additionally, I'm proficient with Premiere Pro, After Effects, and Blender
 
 barber:
-  desc: Landing page for Barbershop
+  desc: Presentation page for Barbershop, built in Vue.js and stylized with Tailwind CSS Framework
 
 cookhouse:
   desc: a world of alchemy brought to life through a logo that exudes extraordinary qualities. Marvel at the fusion of a house and a chef's hat, resulting in a mystical conversion of comfort into culinary masterpieces. The vibrant coral and navy colors, representing passion and sophistication, invite you to embrace the enchantment and savor every dish crafted with mesmerizing creativity

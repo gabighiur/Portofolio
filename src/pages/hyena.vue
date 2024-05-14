@@ -17,7 +17,7 @@ export default {
 </script>
 
 <template>
-  <section class="relative min-h-screen flex flex-col items-center justify-center bg-zinc-900 p-10 lg:justify-start md:justify-stretch">
+  <section class="relative min-h-screen flex flex-col items-center justify-center bg-zinc-900 p-10">
     <div class="flex flex-col items-center gap-8 p-2 lg:flex-row md:flex-row sm:flex-col">
       <div class="flex-1 p-2">
         <img :src="image" alt="Website Image">

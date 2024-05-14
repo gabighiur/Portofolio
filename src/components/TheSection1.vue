@@ -1,8 +1,5 @@
-<script>
-export default {
-  name: 'TheSection1',
+<script setup>
 
-}
 </script>
 
 <template>

@@ -10,9 +10,9 @@ export default {
   data() {
     return {
       projects: [
-        { id: 1, image: hyenaImg, routeName: 'hyena', label: 'HaHaHyenas Web App' },
+        { id: 1, image: owlImg, routeName: 'owl', label: 'Night Owls Web App' },
         { id: 2, image: barberImg, routeName: 'barber', label: 'GoldMan Barbershop Web App' },
-        { id: 3, image: owlImg, routeName: 'owl', label: 'Night Owl Web App' },
+        { id: 3, image: hyenaImg, routeName: 'hyena', label: 'Hyenas Web App' },
         { id: 4, image: cookImg, routeName: 'logos', label: 'Logofolio' },
       ],
     }

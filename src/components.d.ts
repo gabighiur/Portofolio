@@ -13,6 +13,7 @@ declare module 'vue' {
     TheCounter: typeof import('./components/TheCounter.vue')['default']
     TheDesktopNavbar: typeof import('./components/TheDesktopNavbar.vue')['default']
     TheFooter: typeof import('./components/TheFooter.vue')['default']
+    TheIframe: typeof import('./components/TheIframe.vue')['default']
     TheInput: typeof import('./components/TheInput.vue')['default']
     TheLogo: typeof import('./components/TheLogo.vue')['default']
     TheMobileNavbar: typeof import('./components/TheMobileNavbar.vue')['default']

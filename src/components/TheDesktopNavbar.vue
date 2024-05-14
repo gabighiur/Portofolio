@@ -4,9 +4,9 @@ import { availableLocales, loadLanguageAsync } from '~/modules/i18n'
 
 const { locale } = useI18n()
 
-const HOME = { label: 'nav.item1', route: '/', section: '', icon: '' }
-const WORK = { label: 'nav.item2', route: '/portofolio', section: '', icon: '' }
-const ABOUT = { label: 'nav.item3', route: '/info', section: '', icon: '' }
+const HOME = { label: 'nav.item1', route: '/', section: '' }
+const WORK = { label: 'nav.item2', route: '/portofolio', section: '' }
+const ABOUT = { label: 'nav.item3', route: '/info', section: '' }
 const CV = { label: 'nav.item4', route: '/cv', section: '', icon: 'i-pepicons-pencil:cv-circle' }
 
 const NAV_ITEMS = [HOME, WORK, ABOUT]
@@ -30,10 +30,7 @@ async function toggleLocales() {
         class="px-4 py-2 text-amber100 hover:text-cyan-200"
         :class="{ 'font-bold text-cyan-950 hover:text-cyan-900 bg-cyan-100 rounded-full': $route.path === item.route }"
       >
-        <div class="flex items-center gap-1">
-          <div :class="item.icon" text-l />
-          {{ $t(item.label) }}
-        </div>
+        {{ $t(item.label) }}
       </router-link>
       <TheSocials class="px-4 text-amber-100" :is-mobile="false" />
       <!-- Language Dropdown -->
